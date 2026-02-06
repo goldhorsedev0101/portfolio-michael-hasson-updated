@@ -30,12 +30,12 @@ const AboutMe: React.FC = () => {
               👋 Hello there! <br></br>I am Michael Hassan, a Senior AI Full-Stack Engineer with 7+ years of experience building modern web, mobile, and AI-driven platforms. Specialized in Javascript-based frontend architectures and backend systems built with NestJS, Node.js, and Python.
             </p>
             <p>
-              <FaCode className="inline-block mr-2" /> 
               Proven track record delivering AI-enabled products including intelligent assistants, automation pipelines, and data-driven services integrated with OpenAI and LangChain. Strong experience designing cloud-native architectures on AWS and Azure, optimizing performance, and leading complex projects from MVP to large-scale production systems.
             </p>
             <p>
-              I am focused on building maintainable, high-throughput systems that balance performance, reliability, and long-term scalability. Throughout my career, I have:
+              I am focused on building maintainable, high-throughput systems that balance performance, reliability, and long-term scalability.
             </p>
+            <p> Throughout my career, I have:</p>
             <ul className="list-disc pl-5 space-y-2">
               <li>Developed full‑stack web and AI‑integrated applications serving 10,000+ concurrent users</li>
               <li>Built and integrated AI‑powered features including predictive analytics modules and intelligent automation systems</li>
