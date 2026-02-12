@@ -19,6 +19,21 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: 1,
+    title: "Yunuak - Machine Learning",
+    description: "Yunuak is a next-gen enterprise solutions company empowering organizations with digital transformation, process engineering, and cloud-based business tools. Our platforms deliver workflow automation, real-time analytics, and cross-device accessibility. YUNUAK helps businesses achieve operational efficiency, scalability, and smarter decision-making.",
+    category: "Personal Project",
+    image: "/pics/ai-yunuak.jpg",
+    githubLink: "https://www.yunuak.com/",
+    technologies: ["React", "Next.js", "TailwindCSS", "Node.js", "Python", "PostgreSQL", "MongoDB" , "AI/ML", "OpenAI", "AWS", "Google Cloud"],
+    skills: [
+      {name: "Frontend Development"},
+      { name: "UI/UX Design"},
+      { name: "Responsive Web Design"},
+      { name: "Performance Optimization"}
+    ]
+  },
+  {
+    id: 2,
     title: "Contentoo",
     description: "Content marketing platform for brands that need high-quality content — without hiring a full in-house team. It helps marketing teams produce articles, whitepapers, social media posts, and more by connecting them with experienced freelancers in writing, translation, and strategy. The platform supports fast turnaround, brand-relevant messaging, and editorial control at every stage.",
     category: "Personal Project",
@@ -33,7 +48,7 @@ export const projects: Project[] = [
     ]
   },
   {
-    id: 2,
+    id: 3,
     title: "Sharkvision",
     description: "The site showcases services like AI-powered surveillance systems, face recognition products, insurance claim processing tools, attendance/visitor management solutions, and mobile/web development services.",
     category: "Personal Project",
@@ -48,7 +63,7 @@ export const projects: Project[] = [
     ]
   },
   {
-    id: 3,
+    id: 4,
     title: "Talliant",
     description: "Talliant streamlines hiring from job posting to candidate selection. The bot allows HR teams to create and manage job postings, automate resume screening based on predefined criteria, schedule interviews, and track candidate progress through a user-friendly dashboard.",
     category: "Personal Project",
@@ -63,7 +78,7 @@ export const projects: Project[] = [
     ]
   },
   {
-    id: 4,
+    id: 5,
     title: "SiXT",
     description: "Through the site, customers can search, book, and manage vehicle rentals worldwide — ranging from economy cars to premium SUVs — and also access related offerings like car subscriptions, car sharing, ride-hailing, and chauffeur services",
     category: "Personal Project",
