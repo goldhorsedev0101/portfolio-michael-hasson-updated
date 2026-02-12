@@ -30,15 +30,15 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
     >
       <div className="flex flex-col md:flex-row group">
         {/* Left Side - Image/Visual */}
-        <div className="w-full md:w-1/2 bg-muted/30 flex items-center justify-center p-8 min-h-[300px] relative overflow-hidden">
+        <div className="w-full md:w-3/5 bg-muted/30 flex items-center justify-center p-4 md:p-6 min-h-[400px] md:min-h-[500px] relative overflow-hidden">
           {image ? (
             <>
               <Image
                 src={image}
                 alt={title}
-                width={600}
-                height={400}
-                className="rounded-lg w-full h-full transition-all duration-300 group-hover:brightness-105 group-hover:scale-[1.02]"
+                width={800}
+                height={600}
+                className="rounded-lg w-full h-full object-cover transition-all duration-300 group-hover:brightness-105 group-hover:scale-[1.02]"
               />
               {/* Subtle overlay - normal state */}
               <div className="absolute inset-0 rounded-lg transition-opacity duration-300 group-hover:opacity-0"></div>
@@ -51,7 +51,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         </div>
 
         {/* Right Side - Description */}
-        <div className="w-full md:w-1/2 p-6 md:p-8 flex flex-col justify-between">
+        <div className="w-full md:w-2/5 p-6 md:p-8 flex flex-col justify-between">
           <div>
             {/* Category */}
             <motion.span

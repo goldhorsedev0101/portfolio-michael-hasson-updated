@@ -19,12 +19,27 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: 1,
-    title: "Yunuak - Machine Learning",
-    description: "Yunuak is a next-gen enterprise solutions company empowering organizations with digital transformation, process engineering, and cloud-based business tools. Our platforms deliver workflow automation, real-time analytics, and cross-device accessibility. YUNUAK helps businesses achieve operational efficiency, scalability, and smarter decision-making.",
+    title: "Yunuak",
     category: "Personal Project",
+    description: "Yunuak is a next-gen enterprise solutions company empowering organizations with digital transformation, process engineering, and cloud-based business tools. Our platforms deliver workflow automation, real-time analytics, and cross-device accessibility. YUNUAK helps businesses achieve operational efficiency, scalability, and smarter decision-making.",
     image: "/pics/ai-yunuak.jpg",
     githubLink: "https://www.yunuak.com/",
     technologies: ["React", "Next.js", "TailwindCSS", "Node.js", "Python", "PostgreSQL", "MongoDB" , "AI/ML", "OpenAI", "AWS", "Google Cloud"],
+    skills: [
+      {name: "Frontend Development"},
+      { name: "UI/UX Design"},
+      { name: "Responsive Web Design"},
+      { name: "Performance Optimization"}
+    ]
+  },
+  {
+    id: 1,
+    title: "Liberty91",
+    description: "Liberty91 is an AI-powered threat intelligence platform that analyzes real-time cybersecurity data tailored to your organization. It monitors news, dark-web feeds, and vulnerability reports, delivering instant alerts and actionable insights. Liberty91 enables proactive threat detection, risk reduction, and faster cybersecurity response.",
+    category: "Personal Project",
+    image: "/pics/ai-liberty91.jpg",
+    githubLink: "https://liberty91.com/",
+    technologies: ["React", "Next.js", "TailwindCSS", "Node.js", "Python", "PostgreSQL", "MongoDB" , "AI/ML", "LLM", "OpenAI", "AWS", "Google Cloud"],
     skills: [
       {name: "Frontend Development"},
       { name: "UI/UX Design"},
