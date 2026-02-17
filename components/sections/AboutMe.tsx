@@ -27,7 +27,7 @@ const AboutMe: React.FC = () => {
           </CardHeader>
           <CardContent className="text-sm sm:text-base text-foreground space-y-4">
             <p>
-              👋 Hello there! <br></br>I am Michael Hassan, a Senior AI Full-Stack Engineer with 7+ years of experience building modern web, mobile, and AI-driven platforms. Specialized in Javascript-based frontend architectures and backend systems built with NestJS, Node.js, and Python.
+              👋 Hello there! <br></br>I am Michael Hassan, a Senior AI Full-Stack Engineer with 10+ years of experience building modern web, mobile, and AI-driven platforms. Specialized in Javascript-based frontend architectures and backend systems built with NestJS, Node.js, and Python.
             </p>
             <p>
               Proven track record delivering AI-enabled products including intelligent assistants, automation pipelines, and data-driven services integrated with OpenAI and LangChain. Strong experience designing cloud-native architectures on AWS and Azure, optimizing performance, and leading complex projects from MVP to large-scale production systems.

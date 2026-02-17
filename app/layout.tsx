@@ -56,7 +56,7 @@ export default function RootLayout({
           sizes="32x32"
           href="./favicon-32x32.png"
         />
-        <meta property="og:title" content="Michael Hassan - Senior AI Fullstack Developer" />
+        <meta property="og:title" content="Michael Hassan - Senior AI Fullstack Engineer" />
         <meta
           property="og:description"
           content="Senior AI Full-Stack Engineer with 7+ years of experience building modern web, mobile, and AI-driven platforms. Specialized in Javascript-based frontend architectures and backend systems built with NestJS, Node.js, and Python."

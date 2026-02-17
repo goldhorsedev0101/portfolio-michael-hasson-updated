@@ -9,7 +9,7 @@ const HeroTitle = () => (
     className="text-center mt-12 mb-8"
   >
     <h1 className="text-4xl md:text-6xl font-bold mb-4 text-primary">Michael Hassan</h1>
-    <h2 className="text-xl md:text-2xl text-foreground">Senior AI Fullstack Developer</h2>
+    <h2 className="text-xl md:text-2xl text-foreground">Senior AI Fullstack Engineer</h2>
   </motion.div>
 );
 
