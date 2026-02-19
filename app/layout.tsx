@@ -38,7 +38,7 @@ const navItems = [
   {
     name: "Resume",
     icon: <FaFileAlt />,
-    link: "/pdf/resume.pdf",
+    link: "/resume.pdf",
   },
 ];
 

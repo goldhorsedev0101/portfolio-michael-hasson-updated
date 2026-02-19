@@ -11,7 +11,7 @@ const ActionButtons = () => (
     className="flex justify-center space-x-4"
   >
     <a 
-      href="/pdf/resume.pdf" 
+      href="/resume.pdf" 
       target="_blank" 
       rel="noopener noreferrer"
     >
